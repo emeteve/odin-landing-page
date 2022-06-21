@@ -11,6 +11,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 50px;
+    padding-top: 15px;
 }
 
 .one {
@@ -23,7 +24,6 @@ body {
 .logo {
     height: auto;
     width: 125px;
-    
 }
 
 ul {
@@ -65,12 +65,14 @@ a {
 .description-image {
     height: auto;
     width: 450px;
+    border: 8px solid rgb(64, 82, 141);
+    border-radius: 6px;
 }
 
 button {
     background-color: #3882f6;
     border-radius: 6px;
-    border: white;
+    border: 1px solid white;
     color: white;
     font-weight: bold;
     width: 100px;
@@ -141,6 +143,44 @@ button {
     display: flex;
     justify-content: flex-end;
 }
+
 .quoter {
     font-weight: bold;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    margin-top: 30px;
+}
+
+.donation {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    justify-content: space-between;
+    border-radius: 6px;
+    width: 500px;
+}
+
+.donation-header {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.donation-text {
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
 }
